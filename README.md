@@ -1,11 +1,11 @@
 # mqtt-base-gateway
 
 
-This repository contains the gateway source code, json-c library, mqtt c library.
+This repository contains the gateway source code, json-c-0.11 library, mqtt c library.
 
 Main source code is Gateway.c Json_parser.h
 
-Default will launch 10 gateways with 100 lights each.
+Default will launch 10 gateways with 100 street lights each.
 
 ## Build requirements / compilation using CMake
 
@@ -20,7 +20,7 @@ The build process requires the following tools:
   * cmake-gui 
   * cmake-curses-gui
 ```
-Please build json-c library:
+Please build json-c-0.11 library:
 
 ```
 cd json-c
@@ -41,7 +41,7 @@ make
 ```
 export path to $HOME/.bash_profile
 ```
-export LD_LIBRARY_PATH=$HOME/mqtt-base-gateway/build/output:$HOME/mqtt-base-gateway/json-c/.libs:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=$HOME/mqtt-base-gateway/build/output:$HOME/mqtt-base-gateway/json-c-0.11/.libs:$LD_LIBRARY_PATH
 ```
 ```
 . $HOME/.bash_profile

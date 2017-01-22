@@ -23,7 +23,7 @@ The build process requires the following tools:
 Please build json-c-0.11 library:
 
 ```
-cd json-c
+cd json-c-0.11upda
 sh autogen.sh
 ./configure
 make
